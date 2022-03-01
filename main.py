@@ -10,15 +10,6 @@ def ez():
     keyboard = keyboard_controller()
     mouse = mouse_controller()
 
-    def knife():
-        for __ in range(100):
-            mouse.press(Button.left)
-            mouse.release(Button.left)
-            sleep(0.01)
-            mouse.press(Button.right)
-            mouse.release(Button.right)
-            sleep(0.01)
-
     def peekshot_right():
         keyboard.press('d')
         sleep(0.2)
